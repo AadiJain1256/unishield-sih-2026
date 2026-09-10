@@ -12,7 +12,7 @@ import {
 } from 'recharts';
 import './styles.css';
 
-const API_BASE = import.meta.env.VITE_API_URL || 'http://127.0.0.1:8000';
+const API_BASE = import.meta.env.VITE_API_URL || '';
 const fallbackOverview={packets_per_second:18421,active_flows:2841,malware_findings:3,critical_alerts:3};
 const fallbackFlows=[
  {time:'10:55:42',source:'10.24.18.41',destination:'10.24.2.15',protocol:'TCP',port:'443',bytes:'2.8 MB'},
